@@ -1,5 +1,6 @@
 body
 {
+  background-color: #23263a;
   font-family:'Montserrat-medium',sans-serif;
 }
 .bg-custom
@@ -9,7 +10,6 @@ body
 #title
 {
   background-color: #23263a;
-  width: 100%;
 }
 .headline
 {
@@ -90,7 +90,9 @@ body
   }
   .btn
   {
+    padding-top: 10px;
     display:block;
     margin:0 auto;
+
   }
 }
