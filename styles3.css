@@ -11,6 +11,7 @@ hr {
   border-color: #ff4a57;
   border-width:2px;
 }
+
 /* Title Styles */
 
 .bg-custom
@@ -156,11 +157,34 @@ q
 
 .about-def
 {
-  margin:0 auto;
   padding-top: 25px;
   width:55%;
   font-size:20px;
   line-height: 1.6;
+}
+
+.about1
+{
+  padding-top: 1%;
+}
+
+.fa
+{
+  border: 2px solid;
+  border-radius: 50%;
+  border-color:#ff4a57;
+  color: #fff;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  font-size: 1.2rem;
+  margin-left: 60px;
+}
+
+.fa:hover
+{
+  background-color: #ff4a57;
 }
 
 /*Smartphone Responsiveness*/
@@ -189,5 +213,26 @@ body
   {
     width:10%;
     margin-top:0;
+  }
+  .about-def
+  {
+    margin:0 auto;
+    padding-top: 20px;
+    width:90%;
+    font-size:20px;
+    line-height: 1.6;
+  }
+  .fa
+  {
+    border: 2px solid;
+    border-radius: 50%;
+    border-color:#ff4a57;
+    color: #fff;
+    font-weight: 500;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    font-size: 1.2rem;
+    margin:0 auto;
   }
 }
