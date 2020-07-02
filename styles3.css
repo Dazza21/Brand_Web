@@ -3,7 +3,6 @@ body
   color:#fff;
   background-color: #23263a;
   font-family:'Montserrat',sans-serif;
-  overflow-x: hidden;
 }
 
 hr {
@@ -192,7 +191,7 @@ q
   height: 50px;
   padding: 13px;
   font-size: 1.2rem;
-  margin-left: 50px;
+  margin-left: 2.6%;
 }
 
 .fa:hover
@@ -214,9 +213,9 @@ q
 }
 .cr
 {
-  margin:0;
-  position: relative;
-  left: 15px;
+  width:85%;
+  margin: 0 auto;
+
 }
 
 /* Sub-Page Styles */
@@ -297,27 +296,28 @@ body
   .social
   {
     margin-top: 20px;
-    position: relative;
-    right:20px;
+    width:100%;
+    margin:0 auto;
+
   }
   .list
   {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .icon-pos
   {
-    margin-left: 120px;
+    margin-left: 50%vw;
   }
   .text-pos
   {
-    margin-left: 125px;
+    margin-left: 55%vw;
   }
 
   .col-size
   {
-    height: 30%vh;
-    margin-bottom: 25px;
+    height: 130px;
+    margin-bottom: 10px;
   }
 
 }
