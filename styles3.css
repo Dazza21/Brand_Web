@@ -3,7 +3,7 @@ body
   color:#fff;
   background-color: #23263a;
   font-family:'Montserrat',sans-serif;
-  font-weight: 500;
+  overflow-x: hidden;
 }
 
 hr {
@@ -135,6 +135,18 @@ hr {
   margin:20px auto;
 }
 
+.list
+{
+  padding-top: 20px;
+  font-family: Helvetica;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.list-inline-item:hover
+{
+  color: #ff847c;
+}
 /* About Styles */
 #about
 {
@@ -157,8 +169,9 @@ q
 
 .about-def
 {
+  margin:0 auto;
   padding-top: 25px;
-  width:55%;
+  width:70%;
   font-size:20px;
   line-height: 1.6;
 }
@@ -179,7 +192,7 @@ q
   height: 50px;
   padding: 13px;
   font-size: 1.2rem;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .fa:hover
@@ -187,6 +200,63 @@ q
   background-color: #ff4a57;
 }
 
+.div-footer
+{
+  background-color: #1f2235;
+  text-align: center;
+  padding-top: 10px;
+  margin: 30px auto 0;
+  font-size: 1rem;
+}
+.brand-f
+{
+  color:#ff4a57;
+}
+.cr
+{
+  margin:0;
+  position: relative;
+  left: 15px;
+}
+
+/* Sub-Page Styles */
+.fa-custom
+{
+  border:none;
+  color:#ff4a57;
+  font-weight: 500;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  font-size: 1.2rem;
+  margin:0 0 0 14.86%;
+}
+
+.fa-custom:hover
+{
+  background-color: transparent;
+}
+
+.font-custom
+{
+  font-family: "Poppins",sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.icon-pos
+{
+  margin-left:65px;
+}
+.text-pos
+{
+  margin-left: 75px;
+}
+
+.col-size
+{
+  height:200px;
+}
 /*Smartphone Responsiveness*/
  @media (max-width: 992px)
 {
@@ -200,8 +270,10 @@ body
   }
   .img2
   {
-  width: 400px;
-  height: 283px;
+    position:relative;
+    right:5px;
+    width: 400px;
+    height: 283px;
   }
   .btn-t1
   {
@@ -216,23 +288,36 @@ body
   }
   .about-def
   {
-    margin:0 auto;
-    padding-top: 20px;
     width:90%;
+    margin:0 auto;
+    padding-top: 25px;
     font-size:20px;
     line-height: 1.6;
   }
-  .fa
+  .social
   {
-    border: 2px solid;
-    border-radius: 50%;
-    border-color:#ff4a57;
-    color: #fff;
-    font-weight: 500;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-    font-size: 1.2rem;
-    margin:0 auto;
+    margin-top: 20px;
+    position: relative;
+    right:20px;
   }
+  .list
+  {
+    font-size: 14px;
+  }
+
+  .icon-pos
+  {
+    margin-left: 120px;
+  }
+  .text-pos
+  {
+    margin-left: 125px;
+  }
+
+  .col-size
+  {
+    height: 30%vh;
+    margin-bottom: 25px;
+  }
+
 }
