@@ -146,7 +146,7 @@ hr {
 {
   color: #ff847c;
 }
-/* About Styles */
+/* Contact Styles */
 #about
 {
   text-align: center;
@@ -256,6 +256,11 @@ q
 {
   height:200px;
 }
+
+.pad-space
+{
+  padding-top:40px;
+}
 /*Smartphone Responsiveness*/
  @media (max-width: 992px)
 {
@@ -318,6 +323,11 @@ body
   {
     height: 130px;
     margin-bottom: 10px;
+  }
+
+  .pad-space
+  {
+    padding-top:15px;
   }
 
 }
