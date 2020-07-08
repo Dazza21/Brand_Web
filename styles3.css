@@ -274,6 +274,8 @@ body
   }
   .img2
   {
+    position: relative;
+    left: 5px;
     width: 350px;
     height: 247px;
     margin: 0 auto;
